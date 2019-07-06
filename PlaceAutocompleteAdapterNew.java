@@ -47,7 +47,6 @@ public class PlaceAutocompleteAdapterNew extends ArrayAdapter<AutocompletePredic
         AutocompletePrediction item = getItem(position);
 
         TextView textView1 = (TextView) row.findViewById(android.R.id.text1);
-        TextView textView2 = (TextView) row.findViewById(android.R.id.text2);
         textView1.setText(item.getPrimaryText(STYLE_BOLD));
         return row;
     }
